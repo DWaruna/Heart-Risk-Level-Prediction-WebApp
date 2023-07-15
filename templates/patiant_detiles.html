@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title >Patient Details</title>
+</head>
+<body>
+    <h1>Heart Disease Risk Level Prediction</h1>
+    <p>Please fill this form with your correct and true deetails</p>
+    <form action="http://127.0.0.1:5000/getresult" method="post">
+        <p>Name<input type="text" name="name"/></p>
+        <p>Gender (0-Male,1-Female)<input type="text" name="gender"/></p>
+        <p>Age<input type="text" name="age"/></p>
+        <p>TC (mg/dL)<input type="text" name="tc"/></p>
+        <p>HDL (mg/dl)<input type="text" name="hdl"/></p>
+        <p>Smoke (1-Yes,0-No)<input type="text" name="smoke"/></p>
+        <p>Blod Pressure Medication (0-Not taking,1-Taking)<input type="text" name="bpm"/></p>
+        <p>Diabetcs (1-Yes,0-No)<input type="text" name="diab"/></p>
+
+        <p><input type="submit" value="Submit Details"/></p>
+
+    </form>
+</body>
+</html>
